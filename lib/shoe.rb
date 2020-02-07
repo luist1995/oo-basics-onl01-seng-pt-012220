@@ -3,11 +3,11 @@
 class Shoe
   attr_accessor :author, :page_count, :genre
  
-  def initialize(title)
-    @title = title
+  def initialize(brand)
+    @brand = brand 
   end
  
-  def title
+  def brand
     @title
   end
  
