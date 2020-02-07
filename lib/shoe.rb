@@ -1,7 +1,7 @@
 # Make your shoe class here!
 
 class Shoe
-  attr_accessor :color, :, :genre
+  attr_accessor :color, :size, :material, :condition
  
   def initialize(brand)
     @brand = brand 
@@ -11,7 +11,7 @@ class Shoe
     @brand
   end
  
-  def turn_page
+  def cobble
     puts "Flipping the page...wow, you read fast!"
   end
  
